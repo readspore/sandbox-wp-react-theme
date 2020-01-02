@@ -1,35 +1,37 @@
 {
-  "name": "my-react-theme-1-2",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@devloco/react-scripts-wptheme": "^3.3.0-wp.11",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
-  },
-  "scripts": {
-    "crabuild": "react-scripts build",
-    "craeject": "react-scripts eject",
-    "crastart": "react-scripts start",
-    "cratest": "react-scripts test",
-    "build": "wptheme-scripts build",
-    "start": "wptheme-scripts start",
-    "wpbuild": "wptheme-scripts wpbuild",
-    "wpstart": "wptheme-scripts wpstart"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "my-react-theme-1-2",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@devloco\/react-scripts-wptheme": "^3.3.0-wp.11",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0"
+    },
+    "scripts": {
+        "crabuild": "react-scripts build",
+        "craeject": "react-scripts eject",
+        "crastart": "react-scripts start",
+        "cratest": "react-scripts test",
+        "build": "wptheme-scripts build",
+        "start": "wptheme-scripts start",
+        "wpbuild": "wptheme-scripts wpbuild",
+        "wpstart": "wptheme-scripts wpstart"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "homepage": "\/wp-content\/themes\/my-react-theme-1-2",
+    "browserLaunchTo": "http:\/\/sandbox-wordpress"
 }
